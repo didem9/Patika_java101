@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Tam sayı çarpanları toplamı kendisine eşit olan sayıya mükemmel sayı denir. Bu
+//Tam sayı çarpanları toplamı kendisine eşit olan sayıya mükemmel sayı denir.
 
 public class Main {
     public static void main(String[] args) {
