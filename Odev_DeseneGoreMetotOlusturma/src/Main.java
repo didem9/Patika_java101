@@ -7,7 +7,7 @@ public class Main {
 
     static void recursiveMinus(int num, int temp) {
 
-        if (num > 0) {                                  // Her toplama işlemi sırasında son değeri yazdırıyoruz
+        if (num > 0) {                                  // Her çıkarma işlemi sırasında son değeri yazdırıyoruz
             System.out.print(num + " ");
             recursiveMinus(num - 5, temp);
         } else {
@@ -17,7 +17,7 @@ public class Main {
 
     static void recursivePlus(int num, int temp) {
 
-        if (temp >= num) {                              // Her çıkarma işlemi sırasında son değeri yazdırıyoruz
+        if (temp >= num) {                              // Her toplama işlemi sırasında son değeri yazdırıyoruz
             System.out.print(num + " ");
             recursivePlus(num + 5, temp);
         }
